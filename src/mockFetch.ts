@@ -1,4 +1,4 @@
-export function mockFetch(data: unknown) {
+function mockFetch(data: unknown) {
   return jest.fn().mockImplementation(async () =>
     Promise.resolve({
       ok: true,
@@ -6,3 +6,5 @@ export function mockFetch(data: unknown) {
     }),
   );
 }
+
+export default mockFetch;

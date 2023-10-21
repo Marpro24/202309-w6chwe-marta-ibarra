@@ -1,12 +1,8 @@
-import type Pokemon from "./types.js";
+import { getPokemonApi } from "./getPokemonApi/getPokemonApi.js";
 
-const urlApi = "https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0";
-const getPokemon = async (_url: string) => {
-  const response = await fetch(urlApi);
-  const pokemon = (await response.json()) as Pokemon[];
-  return pokemon;
-};
+const urlApi = "https://pokeapi.co/api/v2/pokemon?limit=10&offset=0";
+const pokemonOffset = 20;
 
-console.log(getPokemon);
+const pokemons = await getPokemonApi(urlApi, pokemonOffset);
 
-export default getPokemon;
+export default pokemons;

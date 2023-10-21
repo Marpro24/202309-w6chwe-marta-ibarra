@@ -1,0 +1,47 @@
+{
+  "count": 1292,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=120&limit=10",
+  "previous": "https://pokeapi.co/api/v2/pokemon?offset=100&limit=10",
+  "results": [
+    {
+      "name": "rhyhorn",
+      "url": "https://pokeapi.co/api/v2/pokemon/111/"
+    },
+    {
+      "name": "rhydon",
+      "url": "https://pokeapi.co/api/v2/pokemon/112/"
+    },
+    {
+      "name": "chansey",
+      "url": "https://pokeapi.co/api/v2/pokemon/113/"
+    },
+    {
+      "name": "tangela",
+      "url": "https://pokeapi.co/api/v2/pokemon/114/"
+    },
+    {
+      "name": "kangaskhan",
+      "url": "https://pokeapi.co/api/v2/pokemon/115/"
+    },
+    {
+      "name": "horsea",
+      "url": "https://pokeapi.co/api/v2/pokemon/116/"
+    },
+    {
+      "name": "seadra",
+      "url": "https://pokeapi.co/api/v2/pokemon/117/"
+    },
+    {
+      "name": "goldeen",
+      "url": "https://pokeapi.co/api/v2/pokemon/118/"
+    },
+    {
+      "name": "seaking",
+      "url": "https://pokeapi.co/api/v2/pokemon/119/"
+    },
+    {
+      "name": "staryu",
+      "url": "https://pokeapi.co/api/v2/pokemon/120/"
+    }
+  ]
+}
