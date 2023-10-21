@@ -1,4 +1,4 @@
-import type Pokemon from "./types";
+import type Pokemon from "./types.js";
 
 const urlApi = "https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0";
 
