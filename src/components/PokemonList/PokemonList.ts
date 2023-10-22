@@ -1,10 +1,10 @@
-import type Pokemon from "../../types.js";
+import type { PokemonData } from "../../types.js";
 import Component from "../Component/Component";
 
 class PokemonList extends Component {
   constructor(
     parentElement: Element,
-    private readonly pokemon: Pokemon[],
+    private readonly pokemon: PokemonData[],
   ) {
     super(parentElement, "ul", "pokemon-list");
   }
