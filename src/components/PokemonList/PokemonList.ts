@@ -6,7 +6,7 @@ class PokemonList extends Component {
     parentElement: Element,
     private readonly pokemon: Pokemon[],
   ) {
-    super(parentElement, "ul", "pokemon");
+    super(parentElement, "ul", "pokemon-list");
   }
 
   protected populate(): void {
